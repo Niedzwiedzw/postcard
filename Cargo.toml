@@ -29,7 +29,8 @@ version = "0.2.24"
 optional = true
 
 [dependencies.heapless]
-version = "0.7.0"
+git = "https://github.com/Niedzwiedzw/heapless"
+branch = "main"
 default-features = false
 features = ["serde"]
 optional = true
